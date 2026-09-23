@@ -433,7 +433,7 @@ class SearchEngine:
 
 
 class QuickOpen(tk.Toplevel):
-    """Paleta rápida estilo Cursor (Ctrl+P)."""
+    """Paleta rápida (Ctrl+P)."""
 
     def __init__(self, master, file_list, on_open):
         super().__init__(master)
@@ -1184,7 +1184,6 @@ class ForSearchApp(tk.Tk):
             messagebox.showerror("Arquivo", f"Não encontrado:\n{path}")
             return
         for cmd in (
-            self._cursor_cmd(path, line),
             self._code_cmd(path, line),
             self._npp_cmd(path, line),
         ):
@@ -1196,15 +1195,6 @@ class ForSearchApp(tk.Tk):
             self.status.set(f"Aberto: {path}")
         except OSError as e:
             messagebox.showerror("Abrir", str(e))
-
-    def _cursor_cmd(self, path, line):
-        exe = which("cursor") or self._find_win([
-            r"%LOCALAPPDATA%\Programs\cursor\Cursor.exe",
-            r"%LOCALAPPDATA%\Programs\Cursor\Cursor.exe",
-        ])
-        if not exe:
-            return None
-        return [exe, "-g", f"{path}:{line}"] if line else [exe, path]
 
     def _code_cmd(self, path, line):
         exe = which("code")

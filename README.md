@@ -21,7 +21,7 @@ Ideal para varrer dumps, logs e bases locais em busca de **URL · user · pass �
 | **Escala** | Varre pastas recursivas, pula `node_modules` / `.git` / venvs |
 | **Multi-formato** | `.txt` · `.jsonl` · `.json` · `.csv` · `.sql` · `.log` … |
 | **Blocos de credencial** | Em dumps `URL:` / `Username:` / `Password:` devolve o **bloco inteiro** |
-| **Quick Open** | `Ctrl+P` — abrir arquivo estilo Cursor |
+| **Quick Open** | `Ctrl+P` — abrir arquivo rápido |
 | **Export** | Salva resultados em `.txt` ou `.csv` |
 | **UI** | Tema preto + roxo, borda shimmer |
 
@@ -77,7 +77,7 @@ python search_app.py
 | `Ctrl+O` | Escolher pasta |
 | `Ctrl+F` | Foco no campo de busca |
 | `Esc` | Parar busca |
-| Duplo clique | Abrir arquivo na linha (Cursor / VS Code / Notepad++) |
+| Duplo clique | Abrir arquivo na linha (VS Code / Notepad++) |
 
 ### Extensões
 
