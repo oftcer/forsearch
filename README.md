@@ -134,6 +134,12 @@ não só a linha que bateu na palavra-chave.
 
 ---
 
+## Autor
+
+[oftcer](https://oftcer.com)
+
+---
+
 ## Licença
 
 MIT — veja [LICENSE](LICENSE).
