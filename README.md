@@ -5,9 +5,12 @@ Busca rápida de **palavras-chave em grande escala** em pastas com muitos arquiv
 
 Ideal para varrer dumps, logs e bases locais em busca de **URL · user · pass · strings**.
 
-![Python](https://img.shields.io/badge/python-3.8%2B-8b5cf6?style=flat-square)
-![UI](https://img.shields.io/badge/UI-tkinter-12121a?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-6d28d9?style=flat-square)
+<p align="center">
+  <a href="https://oftcer.com"><img src="https://img.shields.io/badge/site-oftcer.com-111111?style=flat-square" alt="oftcer.com" /></a>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/UI-tkinter-12121a?style=flat-square" alt="tkinter" />
+  <img src="https://img.shields.io/badge/license-MIT-6d28d9?style=flat-square" alt="MIT" />
+</p>
 
 ---
 
